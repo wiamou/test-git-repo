@@ -1,0 +1,7 @@
+<apex:page standardController="Client__c" extensions="Button">
+<!-- Begin Default Content REMOVE THIS -->
+<apex:form>
+<apex:commandButton action="{!CreateContrat}" value="Nouveau Contrat"/>
+</apex:form>
+<!-- End Default Content REMOVE THIS -->
+</apex:page>
