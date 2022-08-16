@@ -4,12 +4,13 @@ trigger CreateP on Produit__c (after insert) {
         if(pr.Name == 'Voiture'){
             p.add(pr);
          }
-         //commentaire
     }
 
     for(Produit__c pro : p){
         System.debug('The name of the product is : '+ pro.Name);
     }
     // update p;
+    //commentaire
+    
 
 }
