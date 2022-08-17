@@ -4,3 +4,4 @@ trigger PopulateCity on Client__c (before insert) {
         client.Ville__c = user[0].City;
     }
 }
+// PopulateCity on Client__c
